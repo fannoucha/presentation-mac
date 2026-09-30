@@ -168,6 +168,15 @@ h6 {
     left: 20px;
     font-size: 10px;
 }
+/**page4**/
+.dropdown {
+    width: fit-content;
+    max-width: calc(100% - 30px);
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background: goldenrod;
+}
 @media(max-width:769px){
     .ordi {
         width: 300px;
