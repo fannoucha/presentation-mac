@@ -5,7 +5,10 @@ boutons.forEach(function(bouton) {
     });
 });
 const button = document.querySelectorAll(".dropdown-button");
-button.addEventListener("click", function () {menu.classList.toggle("open");});
+const menu = document.querySelector(".dropdown-content");
+button.addEventListener("click", function () {
+    menu.classList.toggle("open");
+});
 
 
 
