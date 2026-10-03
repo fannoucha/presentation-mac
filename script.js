@@ -4,7 +4,7 @@ boutons.forEach(function(bouton) {
         window.location.href = bouton.dataset.page;
     });
 });
-const button = document.querySelectorAll(".dropdown-button");
+const button = document.querySelector(".dropdown-button");
 const menu = document.querySelector(".dropdown-content");
 button.addEventListener("click", function () {
     menu.classList.toggle("open");
