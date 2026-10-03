@@ -180,7 +180,7 @@ h6 {
 .dropdown-content{
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.45 ease;
+    transition: max-height 0.45s ease;
 }
 .dropdown-content.open {
     max-height: 300px;
