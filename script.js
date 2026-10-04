@@ -13,7 +13,7 @@ button.addEventListener("click", function () {
 
 
 
-const photos = document.querySelectorAll(".ordiN3, .photos-page3");
+const photos = document.querySelector(".photos, .ordiN3, photos-page3");
 photos.forEach(function(zoom) {
     zoom.addEventListener("click", function() {
         zoom.classList.toggle("agrandie");
