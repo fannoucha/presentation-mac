@@ -58,6 +58,19 @@ body {
     transform: scale(1.05);
     border: 5px solid gold;
 }
+.next-button2 {
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    transition: 0.3s;
+}
+.next-button:hover {
+    transform: scale(1.05);
+    border: 5px cyan;
+}
 .bouton-précédent {
     background-color: red;
     color: white;
