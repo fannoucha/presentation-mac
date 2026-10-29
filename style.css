@@ -67,7 +67,7 @@ body {
     position: fixed;
     transition: 0.3s;
 }
-.next-button:hover {
+.next-button2:hover {
     transform: scale(1.05);
     border: 5px cyan;
 }
