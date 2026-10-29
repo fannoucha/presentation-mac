@@ -71,6 +71,12 @@ body {
     transform: scale(1.05);
     border: 5px cyan;
 }
+.macbookpro {
+    color: white;
+    border-radius: 15px;
+    background-color: purple;
+}
+    
 .bouton-précédent {
     background-color: red;
     color: white;
