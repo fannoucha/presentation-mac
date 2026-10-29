@@ -76,6 +76,9 @@ body {
     border-radius: 15px;
     background-color: purple;
 }
+.page-violette {
+    background: purple
+}
     
 .bouton-précédent {
     background-color: red;
