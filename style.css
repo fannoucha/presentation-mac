@@ -79,6 +79,9 @@ body {
 .page-violette {
     background: purple
 }
+.fond-noir {
+    background-color: black;
+}
     
 .bouton-précédent {
     background-color: red;
