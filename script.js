@@ -19,3 +19,24 @@ photos.forEach(function(zoom) {
         zoom.classList.toggle("agrandie");
     });
 });
+const bouton = document.querySelector(".play-video");
+const photo = document.querySelector(".video-container img");
+const video = document.querySelector(".ma-video");
+
+bouton.addEventListener("click", async function() {
+
+    photo.style.display = "none";
+    bouton.style.display = "none";
+
+    video.style.display = "block";
+    video.controls = true;
+
+    try {
+        await video.requestFullscreen();
+        await video.play();
+    } catch (erreur) {
+        console.log("Lecture vidéo :", erreur);
+        video.play();
+    }
+
+});
