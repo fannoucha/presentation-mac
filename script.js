@@ -10,33 +10,34 @@ button.addEventListener("click", function () {
     menu.classList.toggle("open");
 });
 
-
-
-
 const photos = document.querySelectorAll(".photos, .ordiN3, .photos-page3");
+
 photos.forEach(function(zoom) {
     zoom.addEventListener("click", function() {
         zoom.classList.toggle("agrandie");
     });
 });
+
 const bouton = document.querySelector(".play-video");
 const photo = document.querySelector(".video-container img");
 const video = document.querySelector(".ma-video");
 
-bouton.addEventListener("click", async function() {
+if (bouton && photo && video) {
 
-    photo.style.display = "none";
-    bouton.style.display = "none";
+    bouton.addEventListener("click", function() {
 
-    video.style.display = "block";
-    video.controls = true;
+        photo.style.display = "none";
+        bouton.style.display = "none";
 
-    try {
-        await video.requestFullscreen();
-        await video.play();
-    } catch (erreur) {
-        console.log("Lecture vidéo :", erreur);
+        video.style.display = "block";
+        video.controls = true;
+
         video.play();
-    }
 
-});
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        }
+
+    });
+
+}
