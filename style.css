@@ -66,6 +66,7 @@ body {
     margin: 30px auto;
     padding: 12px 25px;
     border: none;
+    transition: 0.3s;
 }
 
 .macbookpro:hover {
