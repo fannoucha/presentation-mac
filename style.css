@@ -58,26 +58,17 @@ body {
     transform: scale(1.05);
     border: 5px solid gold;
 }
-.next-button2 {
-    background-color: purple;
-    color: white;
-    border-radius: 15px;
-    bottom: 20px;
-    right: 20px;
-    position: fixed;
-    transition: 0.3s;
-}
-.next-button2:hover {
-    transform: scale(1.05);
-    border: 5px cyan;
-}
 .macbookpro {
     color: white;
     border-radius: 15px;
     background-color: purple;
+    position: fixed;
+    bottom: 30px;
+    right: 500px;
 }
-.page-violette {
-    background: purple
+.macbookpro:hover {
+    transform: scale(1.5);
+    border: 5px solid gold;
 }
 .fond-noir {
     background-color: black;
