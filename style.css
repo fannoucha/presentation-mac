@@ -72,6 +72,7 @@ body {
 }
 .fond-noir {
     background-color: black;
+    animation: none;
 }
     
 .bouton-précédent {
